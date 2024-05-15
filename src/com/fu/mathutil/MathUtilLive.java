@@ -21,8 +21,10 @@ public class MathUtilLive {
         int n;
         n = sc.nextInt();
         long result = MathUtil.getFactorial(n);
-        
         System.out.println("5! = 120; actual: " + result);
+        //thêm code 5pm ngày 15-05-2024
+        System.out.println("expected: 3! = 6; actual: " + MathUtil.getFactorial(3));
+        
     }
     
     
